@@ -1,5 +1,17 @@
 // Example names for autocomplete. Replace with actual names or fetch from a source.
-const names = ["Alice", "Bob", "Charlie", "David", "Eve", "Frank", "Grace", "Hannah", "Ivy", "Jack"];
+const names = ["Riley Harper", "Mariana Chavez", "Rohan Kashyap", "Nolan Welch", "Karina Samuel",
+    "Tia Pulikal", "Royal Bao", "Sameera Poddutoori", "Aser Moustafa", "David Foss",
+    "Kelly Yun", "Tyler Xia", "Shreya Gundam", "Will Kleinschmidt", "Amy Xu",
+    "Angela Kim", "Gaines Diseker", "Jacob Gyoerkoe", "Jiya Jolly", "Riley Chapman",
+    "Vignesh Sriram", "Ben Shoenbill", "Caroline Cunningham", "Ethan Clark", "Ishan Joshi",
+    "Jeet Vashisht", "Katie Sugg", "Maggie Saunders", "Mateo Alvarez", "Maya Bouton",
+    "Miranda Stoogenke", "Nicholas Hinson", "Shalaka Vidwans", "Jackqueline Nguyen",
+    "Francine Wei", "Nathan Huse", "Tanvi Dongre", "Arav Tuteja", "Benjamin Ottosson",
+    "Carsen Sharkey", "Charles Aluise", "Kruthi Mukkara", "Kyle Viteri", "Luke Rapisarda",
+    "Macie Fitzgerald", "Mary Kathryn Schultz", "Max Marlow", "Michael Hu", "Maven Brown",
+    "Ning Deng", "Or Avsian", "Rishabh Singh", "Roshan Ragu", "Roshan Revankar", "Sachi Gupta",
+    "Samantha Lang", "Shaan Chaudhry", "Shashank Vanga", "Siddhant Rao", "Tanvi Sathish",
+    "Victoria Hall"];
 
 function filterNames() {
     let input = document.getElementById('nameInput');
