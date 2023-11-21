@@ -27,7 +27,7 @@ function filterNames() {
 }
 
 function loadSignUpList() {
-  fetch('https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec')
+  fetch('https://script.google.com/macros/s/AKfycby8WUivfYIMfXMziR-hF4zllyPfZn5P9m5asHub8lFilUcmC15fDEbS1eLzk8ZDJvC3/exec')
     .then(response => response.text())
     .then(html => {
       document.getElementById('signupList').innerHTML = html;
