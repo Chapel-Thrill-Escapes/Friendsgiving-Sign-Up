@@ -26,14 +26,28 @@ function filterNames() {
     suggestions.style.display = "block";
 }
 
+const scriptUrl = 'https://script.google.com/macros/s/AKfycby8WUivfYIMfXMziR-hF4zllyPfZn5P9m5asHub8lFilUcmC15fDEbS1eLzk8ZDJvC3/exec';
+
 function addFood() {
     let name = document.getElementById('nameInput').value;
     let food = document.getElementById('foodInput').value;
+    
     if (food && name) {
-        google.script.run.withSuccessHandler(function(response) {
-            console.log(response);
-        }).addFoodToSheet(food, name);
+        fetch(scriptUrl, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ foodItem: food, name: name })
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+            // Update your UI accordingly
+        })
+        .catch(error => console.error('Error:', error));
     }
+
     document.getElementById('foodInput').value = '';
     document.getElementById('nameInput').value = '';
     document.getElementById('nameSuggestions').style.display = "none";
