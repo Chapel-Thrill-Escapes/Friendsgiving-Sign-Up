@@ -24,8 +24,8 @@ body {
 .logo-background {
     background-color: #FFFFFF;
     border-radius: 50%;
-    width: 150px; /* Set the width to 95% of the logo's width */
-    padding-top: 150px; /* Maintain a 1:1 aspect ratio for the circle */
+    width: 95%; /* Set the width to 95% of the logo's width */
+    padding-top: 95%; /* Maintain a 1:1 aspect ratio for the circle */
     position: absolute;
     top: 50%;
     left: 50%;
