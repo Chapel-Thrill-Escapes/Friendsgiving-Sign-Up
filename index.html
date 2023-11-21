@@ -8,9 +8,9 @@
     <div class="container">
         <h1>Friendsgiving Food Sign-Up</h1>
         <form action="https://script.google.com/macros/s/AKfycby8WUivfYIMfXMziR-hF4zllyPfZn5P9m5asHub8lFilUcmC15fDEbS1eLzk8ZDJvC3/exec" method="POST">
-            <input id="nameInput" type="text" placeholder="Enter your name..." oninput="filterNames()">
+            <input type="text" id="nameInput" name="participantName" placeholder="Enter your name..." oninput="filterNames()">
             <div id="nameSuggestions" class="suggestions"></div>
-            <input id="foodInput" type="text" placeholder="Start typing a dish...">
+            <input type="text" id="foodInput" name="foodItem" placeholder="Start typing a dish...">
             <button type="submit">Add</button>
         </form>
         <div id="signupList">
