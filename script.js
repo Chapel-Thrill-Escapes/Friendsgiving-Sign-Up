@@ -25,17 +25,3 @@ function filterNames() {
     });
     suggestions.style.display = "block";
 }
-
-function loadSignUpList() {
-  fetch('https://script.google.com/macros/s/AKfycby8WUivfYIMfXMziR-hF4zllyPfZn5P9m5asHub8lFilUcmC15fDEbS1eLzk8ZDJvC3/exec')
-    .then(response => response.text())
-    .then(html => {
-      document.getElementById('signupList').innerHTML = html;
-    })
-    .catch(error => console.error('Error:', error));
-}
-
-// Call this function when the page loads
-document.addEventListener('DOMContentLoaded', function() {
-  loadSignUpList();
-});
