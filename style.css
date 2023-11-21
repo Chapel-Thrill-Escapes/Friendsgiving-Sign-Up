@@ -45,6 +45,7 @@ body {
     flex-direction: row; /* Arrange elements side by side */
     justify-content: center; /* Center elements horizontally */
     align-items: center; /* Center elements vertically */
+    width: 30%; /* Set the width to 30% of the container */
 }
 
 input[type="text"] {
@@ -52,7 +53,7 @@ input[type="text"] {
     padding: 10px;
     border-radius: 4px;
     border: 1px solid #ccc;
-    width: 95%; /* Set the width to 95% of the container */
+    width: 30%; /* Set the width to 30% of the container */
 }
 
 button[type="submit"] {
