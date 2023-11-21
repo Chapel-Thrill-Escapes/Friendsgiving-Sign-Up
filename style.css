@@ -16,10 +16,25 @@ body {
 
 .logo-container {
     padding: 20px 0;
+    display: inline-block;
+    position: relative;
+}
+
+.logo-background {
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+    z-index: -1;
 }
 
 .logo {
-    width: 150px; /* Adjust size as needed */
+    width: 150px;
+    position: relative;
+    z-index: 1;
 }
 
 input[type="text"] {
