@@ -10,6 +10,7 @@ body {
     color: #333333; /* Dark text for readability */
     border-radius: 4px;
     margin: auto;
+    padding: 20px;
 }
 
 .logo-container {
@@ -21,11 +22,12 @@ body {
 .logo-background {
     background-color: #FFFFFF;
     border-radius: 50%;
-    width: 95%;
-    height: 95%;
+    width: 95%; /* Set the width to 95% of the logo's width */
+    padding-top: 95%; /* Maintain a 1:1 aspect ratio for the circle */
     position: absolute;
-    top: 2.5%;
-    left: 2.5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: -1;
 }
 
