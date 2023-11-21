@@ -7,6 +7,8 @@
 <body>
     <div class="container">
         <h1>Friendsgiving Food Sign-Up</h1>
+        <input id="nameInput" type="text" placeholder="Enter your name..." oninput="filterNames()">
+        <div id="nameSuggestions" class="suggestions"></div>
         <input id="foodInput" type="text" placeholder="Start typing a dish...">
         <button onclick="addFood()">Add</button>
         <div id="signupList">
