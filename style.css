@@ -28,30 +28,3 @@ input[type="text"] {
     border-radius: 4px;
     border: 1px solid #ccc;
 }
-
-button {
-    background-color: #f2a900; /* Secondary color */
-    color: #FFFFFF;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    background-color: #e69500; /* Darker shade for hover effect */
-}
-
-.suggestions {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    position: absolute;
-    width: calc(80% - 20px);
-    z-index: 1;
-}
-
-.suggestions div {
-    padding: 10px;
-    cursor: pointer;
-}
