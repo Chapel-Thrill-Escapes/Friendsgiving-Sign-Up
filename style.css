@@ -39,12 +39,20 @@ body {
     z-index: 1;
 }
 
+/* Update the CSS for the form elements */
+.input-container {
+    display: flex;
+    flex-direction: row; /* Arrange elements side by side */
+    justify-content: center; /* Center elements horizontally */
+    align-items: center; /* Center elements vertically */
+}
+
 input[type="text"] {
-    margin: 10px 0;
+    margin: 10px;
     padding: 10px;
     border-radius: 4px;
     border: 1px solid #ccc;
-    width: 100%; /* Take up the full width of the container */
+    width: 95%; /* Set the width to 95% of the container */
 }
 
 button[type="submit"] {
