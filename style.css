@@ -38,3 +38,20 @@ button {
     cursor: pointer;
     font-size: 16px;
 }
+
+button:hover {
+    background-color: #e69500; /* Darker shade for hover effect */
+}
+
+.suggestions {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    position: absolute;
+    width: calc(80% - 20px);
+    z-index: 1;
+}
+
+.suggestions div {
+    padding: 10px;
+    cursor: pointer;
+}
