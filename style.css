@@ -24,8 +24,8 @@ body {
 .logo-background {
     background-color: #FFFFFF;
     border-radius: 50%;
-    width: 42.5px; /* Calculate 95% of 150 pixels and set as fixed width */
-    height: 42.5px; /* Calculate 95% of 150 pixels and set as fixed height */
+    width: 102.5px; /* Calculate 95% of 150 pixels and set as fixed width */
+    height: 102.5px; /* Calculate 95% of 150 pixels and set as fixed height */
     position: absolute;
     top: 50%;
     left: 50%;
