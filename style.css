@@ -21,3 +21,21 @@ body {
     padding: 20px;
     margin-top: 20px;
 }
+
+.suggestions {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: none;
+    position: absolute;
+    width: 180px;
+    z-index: 1;
+}
+
+.suggestions div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestions div:hover {
+    background-color: #f1f1f1;
+}
