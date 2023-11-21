@@ -17,7 +17,7 @@ Friendsgiving is a time to gather with friends and share a meal, expressing grat
 
 We're organizing a potluck-style meal! To coordinate who brings what, we've set up an online sign-up system:
 
-- **Link to Sign-Up:**[chapelthrillescapes.com/friendsgiving]
+- [**Link to Sign-Up:**](chapelthrillescapes.com/friendsgiving)
 - **How to Use the System:** Simply go to the link, type in the dish you'd like to bring, and hit 'Add'. You can also see what others are bringing.
 - **Special Instructions:** Please label your dish if it contains potential allergens (nuts, dairy, gluten, etc.).
 
