@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Friendsgiving Food Sign-Up</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Friendsgiving Food Sign-Up</h1>
+        <input id="foodInput" type="text" placeholder="Start typing a dish...">
+        <button onclick="addFood()">Add</button>
+        <div id="signupList">
+            <h2>Who's Bringing What:</h2>
+            <!-- Signed up foods will go here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
