@@ -5,8 +5,8 @@ Welcome to the Chapel Thrill Escapes Friendsgiving Event! We're excited to celeb
 ## Event Details
 
 **Date:** November 28th  
-**Time:** [Insert Time]  
-**Location:** [Insert Location]  
+**Time:** 5 to 7 PM
+**Location:** Frank Porter Graham Student Union 
 **Host:** Chapel Thrill Escapes
 
 ## Purpose of the Event
@@ -17,17 +17,16 @@ Friendsgiving is a time to gather with friends and share a meal, expressing grat
 
 We're organizing a potluck-style meal! To coordinate who brings what, we've set up an online sign-up system:
 
-- **Link to Sign-Up:** [Insert Link]
+- **Link to Sign-Up:** [chapelthrillescapes.com/friendsgiving]
 - **How to Use the System:** Simply go to the link, type in the dish you'd like to bring, and hit 'Add'. You can also see what others are bringing.
 - **Special Instructions:** Please label your dish if it contains potential allergens (nuts, dairy, gluten, etc.).
 
 ## Schedule
 
-- [Time]: Arrival and Welcome
-- [Time]: Dinner Starts
-- [Time]: Games and Activities
-- [Time]: Dessert and Coffee
-- [Time]: Closing Remarks
+- 5 PM: Arrival and Welcome
+- 5:30 PM: Dinner Starts
+- 6:30 PM: Games and Activities
+- 7:30 PM: Closing
 
 ## What to Bring
 
@@ -41,7 +40,7 @@ Please follow any current health guidelines. If you feel unwell, we kindly ask t
 
 ## Contact Information
 
-For any questions or additional information, please reach out to [Contact Person's Name] at [Contact Email/Phone].
+For any questions or additional information, please reach out to admin@chapelthrillescapes.com.
 
 ---
 
